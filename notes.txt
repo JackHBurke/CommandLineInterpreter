@@ -1,0 +1,8 @@
+Begin program
+    if pipe
+        split string by pipe
+        call tokenizer on both strings
+        set up pipes for both
+        exec both
+    else
+        call exec normally
